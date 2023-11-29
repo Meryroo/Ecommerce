@@ -1,5 +1,9 @@
+import ShoppingCart from "../ShoppingCart/ShoppingCart";
+
 const Cart = () => {
-  return <div className="outlet">Carrito</div>;
+  return (
+    <ShoppingCart></ShoppingCart>
+  )
 };
 
 export default Cart;

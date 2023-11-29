@@ -1,7 +1,13 @@
-import "./layout.css";
+/* eslint-disable react/prop-types */
 
-const Layout = ({ children }) => {
-  <div className="main-container">{children}</div>;
-};
+import "./layout.css"
+
+const Layout = ({children}) =>{
+    return(
+        <div className="main-container">{children}
+
+        </div>
+    )
+}
 
 export default Layout;

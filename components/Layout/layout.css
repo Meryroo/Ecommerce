@@ -1,7 +1,9 @@
-.main-container {
-  display: grid;
-  grid-template-rows:
-    14vh
-    1fr
+.main-container{
+    display:grid;
+    grid-template-rows: 
+    12vh
+    1fr 
     10vh;
+    min-height: 100vh;
+
 }
